@@ -10,6 +10,7 @@ import SwiftUI
 struct MainView: View {
     
     @State var selected = 1
+    @StateObject var viewModel = ViewModel()
     
     var body: some View {
         
@@ -24,6 +25,7 @@ struct MainView: View {
                 .tag(2)
             
         }
+        .environmentObject(viewModel)
         
     }
 }

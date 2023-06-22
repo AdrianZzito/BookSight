@@ -13,7 +13,7 @@ struct ContentView: View {
     @State var bookName = ""
     @State var selected: windows
     
-    @StateObject var viewModel = ViewModel()
+    @EnvironmentObject var viewModel: ViewModel
     
     var body: some View {
         
