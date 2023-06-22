@@ -11,7 +11,7 @@ import RealityKit
 struct ContentView: View {
 
     @State var bookName = ""
-    @State var selected: windows = .allBooks
+    @State var selected: windows
     
     @StateObject var viewModel = ViewModel()
     
@@ -48,9 +48,6 @@ struct ContentView: View {
             .navigationDestination(for: BookDetails.self) { book in
                 BookDetailedView(book: book)
             }
-            .toolbar {
-                WindowSelectorView(selectedValue: $selected)
-            }
             
         } detail: {
             Text("Search and select a book to view it's details.")
@@ -65,5 +62,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(selected: .allBooks)
 }

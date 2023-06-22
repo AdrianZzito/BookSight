@@ -11,7 +11,7 @@ import SwiftUI
 struct BooksVisualizedApp: App {
     var body: some Scene {
         WindowGroup("Main", id: "main") {
-            ContentView()
+            MainView()
         }
         
     }

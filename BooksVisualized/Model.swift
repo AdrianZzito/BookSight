@@ -7,6 +7,12 @@
 
 import Foundation
 
+// MARK: - Windows
+enum windows: CaseIterable {
+    case allBooks
+    case favourites
+}
+
 // MARK: - Books
 struct Books: Codable, Hashable {
     let kind: String

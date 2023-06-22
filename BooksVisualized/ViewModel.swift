@@ -15,7 +15,7 @@ final class ViewModel: ObservableObject {
     @Published var booksFounded: [BookDetails] = []
     @Published var error: Bool = false
     
-    let apiKey = "Enter here your google books API key"
+    // let apiKey = "Enter here your google books API key"
     
     func getBooks(book: String) async {
         

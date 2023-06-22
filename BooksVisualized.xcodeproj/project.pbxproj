@@ -13,9 +13,10 @@
 		DF3861CC2A4470CC004951AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3861CB2A4470CC004951AA /* Preview Assets.xcassets */; };
 		DF3861D32A447105004951AA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3861D22A447105004951AA /* Model.swift */; };
 		DF3861D72A447161004951AA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3861D62A447161004951AA /* ViewModel.swift */; };
+		DF598A7A2A45011A00769B30 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF598A792A45011A00769B30 /* MainView.swift */; };
+		DF598A7E2A45018B00769B30 /* HiddenValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF598A7D2A45018B00769B30 /* HiddenValues.swift */; };
 		DF5AE77B2A447D76001DCDE0 /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE77A2A447D76001DCDE0 /* BookRowView.swift */; };
 		DF5AE77E2A448422001DCDE0 /* BookDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE77D2A448422001DCDE0 /* BookDetailedView.swift */; };
-		DF5AE7862A449AA4001DCDE0 /* WindowSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5AE7852A449AA4001DCDE0 /* WindowSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +27,11 @@
 		DF3861CB2A4470CC004951AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF3861D22A447105004951AA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DF3861D62A447161004951AA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DF598A792A45011A00769B30 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DF598A7D2A45018B00769B30 /* HiddenValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenValues.swift; sourceTree = "<group>"; };
 		DF5AE77A2A447D76001DCDE0 /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
 		DF5AE77C2A4482F6001DCDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DF5AE77D2A448422001DCDE0 /* BookDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailedView.swift; sourceTree = "<group>"; };
-		DF5AE7852A449AA4001DCDE0 /* WindowSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +66,13 @@
 			children = (
 				DF5AE77C2A4482F6001DCDE0 /* Info.plist */,
 				DF3861C22A4470CB004951AA /* BooksVisualizedApp.swift */,
+				DF598A792A45011A00769B30 /* MainView.swift */,
 				DF3861C42A4470CB004951AA /* ContentView.swift */,
 				DF5AE77D2A448422001DCDE0 /* BookDetailedView.swift */,
 				DF5AE77A2A447D76001DCDE0 /* BookRowView.swift */,
-				DF5AE7852A449AA4001DCDE0 /* WindowSelectorView.swift */,
 				DF3861D62A447161004951AA /* ViewModel.swift */,
 				DF3861D22A447105004951AA /* Model.swift */,
+				DF598A7D2A45018B00769B30 /* HiddenValues.swift */,
 				DF3861C82A4470CC004951AA /* Assets.xcassets */,
 				DF3861CA2A4470CC004951AA /* Preview Content */,
 			);
@@ -156,13 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF598A7E2A45018B00769B30 /* HiddenValues.swift in Sources */,
 				DF3861D32A447105004951AA /* Model.swift in Sources */,
+				DF598A7A2A45011A00769B30 /* MainView.swift in Sources */,
 				DF5AE77B2A447D76001DCDE0 /* BookRowView.swift in Sources */,
 				DF3861C52A4470CB004951AA /* ContentView.swift in Sources */,
 				DF3861D72A447161004951AA /* ViewModel.swift in Sources */,
 				DF3861C32A4470CB004951AA /* BooksVisualizedApp.swift in Sources */,
 				DF5AE77E2A448422001DCDE0 /* BookDetailedView.swift in Sources */,
-				DF5AE7862A449AA4001DCDE0 /* WindowSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
